@@ -49,7 +49,7 @@ export default class ShowData extends Component {
     }
 
     axios
-      .post('users/show', data,{
+      .post('http://localhost:800/users/show', data,{
         headers: {
           'authorization': "Bearer " + token
         }

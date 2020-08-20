@@ -1,9 +1,7 @@
-const env = require('./env.js');
- 
-const Sequelize = require('sequelize');
-const sequelize = new Sequelize(env.database, env.username, env.password, {
-  host: env.host,
-  dialect: env.dialect,
-  operatorsAliases: false
+var Sequelize = require('sequelize');
 
-})
+module.exports = new Sequelize('employee', 'postgres', '8080', {
+  dialect: "postgres",
+  port: 5432,
+});
+
