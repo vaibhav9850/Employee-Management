@@ -6,7 +6,7 @@ const sequelize = new Sequelize(env.database, env.username, env.password, {
   dialect: env.dialect,
   operatorsAliases: false,
  
-  
+   
 });
 
 module.exports=sequelize;
