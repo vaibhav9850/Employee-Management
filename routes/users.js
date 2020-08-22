@@ -154,7 +154,8 @@ router.post('/create', function (req, res) {
       joiningdate: req.body.joiningDate,
       salary: req.body.salary,
       department: req.body.department,
-      gender: req.body.gender
+      gender: req.body.gender,
+      role:"Normal Admin"
     }).then(() => {
       var msg = "user added successfully";
       res.json({ message: msg })
