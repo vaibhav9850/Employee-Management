@@ -2,7 +2,7 @@
 
 /* Media Query for Mobile Devices */ 
 
-@media (min-width: 480px) { 
+@media (min-width: 300px) { 
   .MainForm{
     display:flex;                                      
     justify-content: center;
@@ -13,7 +13,7 @@
   }
 
   .formStyle{
-    background-color:red;
+    background-color:white;
     width: 205px;
     height: 532px;
     padding: 10px 50px 10px 50px;
@@ -62,7 +62,7 @@
   }
 
   .formStyle{
-  background-color:yellow;
+  background-color:white;
   width: 300px;
   height: 718px;
   padding: 10px 50px 10px 50px;
